@@ -1,0 +1,41 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# Downloaded third-party datasets (obtain these from their providers)
+external_data/
+opendata/
+
+# Generated analysis artifacts, caches, and browser/runtime state
+artifacts/
+runtime/
+qa_api_*/
+
+# Local logs and command outputs
+*.log
+*.out
+*.err
+api_*.json
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
